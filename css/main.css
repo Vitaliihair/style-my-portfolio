@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@500;700&display=swap');
 
 
-
+/* * {
+  border: 1px solid red;
+} */
 
 .poppins-medium {
     font-family: "Poppins", sans-serif;
@@ -35,4 +37,36 @@ html, body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1257px;
+}
+
+
+/* nav */
+
+.nav{
+  padding: 20px 0;
+  border-bottom: 1px solid #26292d;
+  background-color: #171718 ;
+  color: #fff;
+}
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
+.logo{
+  color: #fff;
+  font-size: 28;
+  font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
