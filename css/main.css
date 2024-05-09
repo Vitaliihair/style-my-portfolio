@@ -3,10 +3,12 @@
 
 
 /* * {
-  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 } */
 
-.poppins-medium {
+/* .poppins-medium {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -16,9 +18,23 @@
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+  } */
+
+  :root {
+    --black: #171718 ;
+    --black-border: #171718 ;
+    --white: #fff ;
+    --purple: #5c62ec ;
+
+
+    --dark-bg:var(--black) ;
+    --dark-border:var(--black-border);
+    --header-text:var(--white);
+    --accent:var(--purple)
   }
 
 html, body {
+  
 
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -32,12 +48,12 @@ html, body {
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 1000 */
 
-.dm-sans-ass {
+/* .dm-sans {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 
 .container {
@@ -51,9 +67,10 @@ html, body {
 
 .nav{
   padding: 20px 0;
-  border-bottom: 1px solid #26292d;
-  background-color: #171718 ;
-  color: #fff;
+  border-bottom: 1px solid var(--dark-border);
+  /* border-bottom: 1px solid #26292d; */
+  background-color: var(--dark-bg);
+  color: var(--header-text);
 }
 .nav-row {
   display: flex;
@@ -69,4 +86,68 @@ html, body {
   font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.nav-list__link {
+  color: var(--header-text);
+  
+}
+
+.nav-list__link--active{
+  position: relative;
+}
+
+.nav-list__link--active::before {
+content: "";
+
+position: absolute;
+left: 0;
+top: 100%;
+
+display: block;
+height: 2px;
+width: 100%;
+background-color: var(--accent)  ;
+}
+
+.logo-vitalii__stepanov {
+
+position: absolute;
+/* width: 10vh;
+height: 10vh; */
+width: 506px;
+height: 476px;
+left: 42px;
+top: 64px;
+
+/* background: url(logo-name.png); */
+opacity: 0.5;
+
+
+}
+.header {
+  /* header background 1 */
+
+position: absolute;
+/* width: 1715px;
+height: 100%; */
+left: 0px;
+top: 65px;
+
+
+/* background: url(/jpg/header_background.png); */
+}
+
+.header_background {
+  width: 2000vh;
 }
