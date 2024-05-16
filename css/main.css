@@ -40,7 +40,7 @@ html, body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-    
+  background-color: var(--dark-bg);
 
   
 
@@ -100,7 +100,10 @@ html, body {
 
 .nav-list__link {
   color: var(--header-text);
-  
+  transition: opasity 0.2s ease-in;
+}
+.nav-list__link:hover {
+  opacity:0.8;
 }
 
 .nav-list__link--active{
@@ -178,9 +181,7 @@ font-style: normal;
 color: var(--accent);
 }
 
-.header-text{
 
-}
 
 .btn{
   display: inline-block;
@@ -192,7 +193,17 @@ color: var(--accent);
   letter-spacing: 0.15px;
   font-size: 36px;
   font-weight: medium ;
+  transition: opacity 0.5 ease-in;
 
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  position: relative;
+  top: 3px;
 }
 
 /* .header_background {
@@ -210,3 +221,56 @@ color: var(--accent);
   width:100%;
  
 } */
+ 
+/* Main */
+
+.section {
+margin-top: 40px;
+margin-left: 115px;
+margin-right: 115px;
+background-color: var(--dark-bg);
+}
+.title-1 {
+  margin-bottom: 59.36px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 60px;
+  color:  var(--white);
+  letter-spacing: -0.5px;
+  line-height: 130%;
+  text-align: center ;
+}
+
+
+/* Portfilio  */
+
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  
+
+}
+
+.portfolio-name_1 {
+  color: var(--white);
+  font-size: 24 ;
+  font-weight: bold;
+  text-align: center ;
+  letter-spacing: -0.5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.portfolio-item {
+  max-width: 370px;
+  /* background-color: var(--white); */
+  border: 2px dotted var(--white);
+  border-radius: 20px;
+}
+.portfolio-jpg_1 {
+  border-radius: 20px 20px 0px 0px;
+}
