@@ -59,7 +59,8 @@ html, body {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1271px ;
+  
+
 }
 
 
@@ -141,13 +142,14 @@ padding-right: 42px;
 /* header */
 
 }
+
 .header {
 background-color: var(--dark-bg);
 color: var(--header-text);
 padding: 40px 0;
 min-height: 695px;
 display: flex ;
-justify-content: center;
+justify-content: space-evenly;
 align-items: center ;
 text-align: center;
 
@@ -158,7 +160,9 @@ text-align: center;
 .header-wrapper{
   max-width: 660px;
   padding: 0 15px;
-
+  display: block;
+ /* justify-content: ; */
+ margin-right: 100px;
 }
  
 .header-title {
@@ -223,7 +227,7 @@ color: var(--accent);
 } */
  
 /* Main */
-пше
+
 .section {
 margin-top: 40px;
 margin-left: 115px;
