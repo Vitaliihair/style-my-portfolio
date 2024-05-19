@@ -124,30 +124,21 @@ width: 100%;
 background-color: var(--accent)  ;
 }
 
-.logo-vitalii__stepanov {
 
-/* position: absolute; */
-/* width: 10vh;
-height: 10vh; */
+.acquaintance__logo {
+
 width: 506px;
 height: 476px;
 left: 42px;
 top: 166px;
-/* display: block; */
-
-/* background: url(logo-name.png); */
-/* opacity: 0.5; */
-
-
-/* header */
 
 }
+/* Title */
 
-.header {
+.acquaintance {
 background-color: var(--dark-bg);
 color: var(--header-text);
 display: flex ;
-/* padding: 40px 0; */
 min-height: 695px;
 
 justify-content: space-evenly;
@@ -165,7 +156,7 @@ gap: 30px;
   padding: 0 15px;
 } */
 
-.header-wrapper{
+.acquaintance__container{
   max-width: 660px;
   padding: 0 15px;
   /* display: block; */
@@ -173,7 +164,7 @@ gap: 30px;
  /* margin-right: 100px; */
 }
  
-.header-title {
+.acquaintance__container--title {
 
   margin-bottom: 20px;
   font-size: 40px;
@@ -183,19 +174,21 @@ gap: 30px;
 
 }
 
-.header-title strong {
+.acquaintance__container--title strong {
   font-size: 60px;
   font-weight: 700;
 }
 
-.header-title em {
+.acquaintance__container--title em {
 font-style: normal;
 color: var(--accent);
 }
 
 
+/* button */
 
-.btn{
+
+.acquaintance__container--btn{
   display: inline-block;
   height: 70 depx;
   padding: 30.9px 27.2px 30.51px;
@@ -209,11 +202,11 @@ color: var(--accent);
 
 }
 
-.btn:hover {
+.acquaintance__container--btn:hover {
   opacity: 0.8;
 }
 
-.btn:active {
+.acquaintance__container--btn:active {
   position: relative;
   top: 3px;
 }
@@ -236,13 +229,13 @@ color: var(--accent);
  
 /* Main */
 
-.section {
+.portfolio {
 margin-top: 40px;
 margin-left: 115px;
 margin-right: 115px;
 background-color: var(--dark-bg);
 }
-.title-1 {
+.portfolio__title {
   margin-bottom: 59.36px;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -259,7 +252,7 @@ background-color: var(--dark-bg);
 /* Portfilio  */
 
 
-.portfolio-items {
+.portfolio__container {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -267,8 +260,14 @@ background-color: var(--dark-bg);
   
 
 }
+.portfolio__container--item {
+  max-width: 370px;
+  /* background-color: var(--white); */
+  border: 2px dotted var(--white);
+  border-radius: 20px;
+}
 
-.portfolio-name_1 {
+.portfolio__container--name {
   color: var(--white);
   font-size: 24 ;
   font-weight: bold;
@@ -277,12 +276,7 @@ background-color: var(--dark-bg);
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.portfolio-item {
-  max-width: 370px;
-  /* background-color: var(--white); */
-  border: 2px dotted var(--white);
-  border-radius: 20px;
-}
-.portfolio-jpg_1 {
+
+.portfolio__container--jpg {
   border-radius: 20px 20px 0px 0px;
 }
