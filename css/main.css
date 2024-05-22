@@ -280,3 +280,19 @@ background-color: var(--dark-bg);
 .portfolio__container--jpg {
   border-radius: 20px 20px 0px 0px;
 }
+
+/* footer */
+.none {
+  display: none !important;
+}
+
+.footer {
+  background-color: var(--dark-bg);
+  padding: 60px 0 50px;
+  color: var(--white);
+
+}
+.container__items--icon {
+  height: 38px;
+  width: 38px;
+}
