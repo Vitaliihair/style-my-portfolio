@@ -34,27 +34,12 @@
   }
 
 html, body {
-  
-
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   background-color: var(--dark-bg);
-
-  
-
 }
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 1000 */
-
-/* .dm-sans {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
-
 
 .container {
   margin: 0 auto;
@@ -62,7 +47,6 @@ html, body {
   
 
 }
-
 
 /* nav */
 
@@ -112,56 +96,47 @@ html, body {
 }
 
 .nav-list__link--active::before {
-content: "";
+  content: "";
 
-position: absolute;
-left: 0;
-top: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
 
-display: block;
-height: 2px;
-width: 100%;
-background-color: var(--accent)  ;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--accent)  ;
 }
-
 
 .acquaintance__logo {
 
-width: 506px;
-height: 476px;
-left: 42px;
-top: 166px;
-
+  width: 506px;
+  height: 476px;
+  left: 42px;
+  top: 166px;
 }
+
 /* Title */
 
 .acquaintance {
-background-color: var(--dark-bg);
-color: var(--header-text);
-display: flex ;
-min-height: 695px;
+  background-color: var(--dark-bg);
+  color: var(--header-text);
+  display: flex ;
+  min-height: 695px;
 
-justify-content: space-evenly;
-align-items: center ;
-text-align: center;
-flex-wrap: wrap;
-gap: 30px;
-
-
-/* background: url(/jpg/header_background.png); */
+  justify-content: space-evenly;
+  align-items: center ;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
-/* .about-me {
-  margin: 0 auto;
-  padding: 0 15px;
-} */
+
 
 .acquaintance__container{
   max-width: 660px;
   padding: 0 15px;
-  /* display: block; */
- /* justify-content: ; */
- /* margin-right: 100px; */
+
 }
  
 .acquaintance__container--title {
@@ -180,8 +155,8 @@ gap: 30px;
 }
 
 .acquaintance__container--title em {
-font-style: normal;
-color: var(--accent);
+  font-style: normal;
+  color: var(--accent);
 }
 
 
@@ -211,29 +186,14 @@ color: var(--accent);
   top: 3px;
 }
 
-/* .header_background {
-  
-  width: 2031px;
-  background-size: auto;
-  object-fit: cover;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-.header_background-img {
-  width:100%;
- 
-} */
- 
 /* Main */
 
 .portfolio {
-margin-top: 40px;
-margin-left: 115px;
-margin-right: 115px;
-background-color: var(--dark-bg);
+  margin-top: 40px;
+  margin-left: 115px;
+  margin-right: 115px;
+  background-color: var(--dark-bg);
 }
 .portfolio__title {
   margin-bottom: 59.36px;
@@ -327,31 +287,54 @@ background-color: var(--dark-bg);
 }
 
 .all-price {
-display: flex;
-flex-wrap: wrap;
-gap: 100px;
-justify-content: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 200px;
+  justify-content: center;
+}
+
+.fill {
+  border-bottom: 1px dotted white;
+  flex-grow: 1;
 }
 
 .gender-title {
   font-size: 40px;
   font-weight: bold;
-  text-align: center;  
+  text-align: center;
+  padding-bottom: 30px;
 }
 .men-pricelist{
-font-size: 16px;
-font-weight: normal ;
-text-align: left;
-color: var(--white);
+  width: 110%;
+  font-size: 20px;
+  font-weight: normal ;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.men-pricelist li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .women-pricelist{
- 
-  font-size: 16px;
+  width: 110%;
+  font-size: 20px;
   font-weight: normal ;
-  text-align: left;
+  justify-content: space-between;
   color: var(--white);
 }
+
+.women-pricelist li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
 .container-info {
   display: flex;
   flex-wrap: wrap;
@@ -367,15 +350,10 @@ color: var(--white);
   text-align: center;
   line-height: 50px;
 }
-/* info__text.{
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: -0.5;
-  line-height: 130%;
-  
-} */
+
 
 .my-job{
   border: 2px dotted var(--white);
   border-radius: 20px;
 }
+
