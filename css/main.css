@@ -318,6 +318,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   gap: 15px;
+  padding-bottom: 5px;
 }
 
 .women-pricelist{
@@ -332,7 +333,8 @@ html, body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 5px;
+  gap: 15px;
+  padding-bottom: 5px;
 }
 
 .container-info {
@@ -346,14 +348,56 @@ html, body {
   font-size: 20px;
   font-weight: bold;
   letter-spacing: -0.5;
-  line-height: 130%;
   text-align: center;
   line-height: 50px;
 }
 
-
-.my-job{
+ .my-job{
   border: 2px dotted var(--white);
   border-radius: 20px;
+}
+
+.contacts {
+  padding: 55px 0 22px;
+  background-color: var(--dark-bg);
+  color: var(--white); 
+}
+
+.contacts__title {
+  padding-bottom: 40px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;  
+}
+
+.all-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 130px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0 50px;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -0.5;
+  text-align: center;
+  line-height: 50px;
+}
+
+.contacts__map {
+
+}
+
+.contacts__text {
+
+}
+
+.contacts__text--big {
+  
+}
+
+.contacts__text--little {
+
 }
 
