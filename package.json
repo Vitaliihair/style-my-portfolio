@@ -2,5 +2,8 @@
   "devDependencies": {
     "sass": "^1.77.2",
     "sass-loader": "^14.2.1"
+  },
+  "dependencies": {
+    "ymaps": "^0.2.1"
   }
 }

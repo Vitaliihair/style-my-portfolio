@@ -386,9 +386,10 @@ html, body {
 
 }
 
-.contacts__map {
+.map {
   height: 500px;
   width: 500px;
+  background-color: var(--dark-bg);
 }
 
 .contacts__text {
