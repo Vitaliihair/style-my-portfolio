@@ -109,11 +109,11 @@ html, body {
 }
 
 .acquaintance__logo {
-
-  width: 506px;
-  height: 476px;
+  margin: 0px 20px;
+  width: 500px;
   left: 42px;
   top: 166px;
+  justify-content: center;
 }
 
 /* Title */
@@ -190,12 +190,18 @@ html, body {
 /* Main */
 
 .portfolio {
+ 
   margin-top: 40px;
   margin-left: 115px;
   margin-right: 115px;
   background-color: var(--dark-bg);
 }
+
+
 .portfolio__title {
+ 
+  display: flex;
+  justify-content: center;
   margin-bottom: 59.36px;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -206,6 +212,12 @@ html, body {
   letter-spacing: -0.5px;
   line-height: 130%;
   text-align: center ;
+}
+
+.portfolio__container-title {
+  padding: 0px 85px;
+ 
+  max-width: 660px;
 }
 
 
@@ -277,6 +289,7 @@ html, body {
   padding: 55px 0 22px;
   background-color: var(--dark-bg);
   color: var(--white); 
+  
 }
 
 .title-price {
@@ -297,6 +310,7 @@ html, body {
 .fill {
   border-bottom: 1px dotted white;
   flex-grow: 1;
+  
 }
 
 .gender-title {
@@ -311,6 +325,7 @@ html, body {
   font-weight: normal ;
   justify-content: space-between;
   color: var(--white);
+  padding: 0px 20px;
 }
 
 .men-pricelist li {
@@ -327,6 +342,7 @@ html, body {
   font-weight: normal ;
   justify-content: space-between;
   color: var(--white);
+  padding: 0px 20px;
 }
 
 .women-pricelist li {
@@ -350,6 +366,7 @@ html, body {
   letter-spacing: -0.5;
   text-align: center;
   line-height: 50px;
+  margin: 0px 20px;
 }
 
  .my-job{
@@ -412,3 +429,4 @@ font-weight: 400;
 
 }
 
+@media
