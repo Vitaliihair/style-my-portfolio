@@ -5,8 +5,8 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
-  box-sizing: none;
+  box-sizing: border-box;
+  /* box-sizing: none; */
 }
 
 /* .poppins-medium {
@@ -292,6 +292,8 @@ html, body {
   font-size: clamp(0.75rem, 0.539rem + 1.05vw, 1rem);
 }
 
+/* Price */
+
 .price-box {
   padding: 55px 0 22px;
   background-color: var(--dark-bg);
@@ -368,7 +370,7 @@ html, body {
 .container-info {
   display: flex;
   flex-wrap: wrap;
-  gap: 130px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
   padding: 50px 0 50px;
@@ -378,20 +380,25 @@ html, body {
   font-weight: bold;
   letter-spacing: -0.5;
   text-align: center;
-  /* line-height: 50px; */
-  line-height: clamp(1.25rem, 0.118rem + 5.66vw, 3.125rem);
+  /* line-height: 48.34px; */
+  /* line-height: clamp(1.25rem, 0.118rem + 5.66vw, 3.125rem); */
+  line-height: clamp(1.25rem, -0.242rem + 7.46vw, 3.021rem);
   margin: 0px 20px;
 
 }
 
-/* .photo {
-  max-width: 525.5px;
-} */
+
+.info__text {
+  /* width: fit-content; */
+ padding: 0px 50.5px;
+ border: 2px dotted var(--white);
+  border-radius: 20px;
+}
 
  .my-job{
   border: 2px dotted var(--white);
   border-radius: 20px;
-  max-width: 80%;
+
 }
 
 .contacts {
