@@ -14,5 +14,7 @@ function Init(){
     map.cotrols.remove('scrollZoom');
     map.cotrols.remove('rulerControl');
 
+    map.geoObjects.add(placemark);
+
 }
 ymaps.ready(Init);
