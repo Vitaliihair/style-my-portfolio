@@ -4,6 +4,7 @@
     "sass-loader": "^14.2.1"
   },
   "dependencies": {
-    "ymaps": "^0.2.1"
+    "ymaps": "^0.2.1",
+    "ymaps-loader": "^1.0.6"
   }
 }
